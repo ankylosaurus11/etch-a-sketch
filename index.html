@@ -10,14 +10,27 @@
     <button>Size Select</button>
     <div id="container"></div>
     <script>
-        for (i = 0; i < 256; i++) {
-            const container = document.querySelector('#container');
+        const container = document.querySelector('#container');
+
+        function sizeSelect(number) {
+            container.replaceChildren()
+            number = prompt("Enter a number", )
+        
+        for (i = 0; i < number; i++) {
             const newDiv = document.createElement('div');
             newDiv.classList.add('sqDiv');
             container.appendChild(newDiv);
             
         }
+        }
+    
+    const button = document.querySelector('button');
+    button.addEventListener('click', () => {
+        sizeSelect();
+    })
 
+    
+    
     </script>
 </body>
 </html>
