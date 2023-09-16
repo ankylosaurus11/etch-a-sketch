@@ -1,8 +1,17 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #container {
     display:flex;
     flex-wrap:wrap;
     width:960px;
     height:960px;
+    border-color: black;
+    border-width: 6px;
+    border-style: solid;
 }
 
 .sqDiv {
